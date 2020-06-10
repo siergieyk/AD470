@@ -9,7 +9,7 @@ import random
 import json
 import pickle
 
-with open("intents.json") as file:
+with open("intents.json",) as file:
     data = json.load(file)
 
 try:

@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . . 
 
-ENTRYPOINT ["python","chatbot.py"]
+ENTRYPOINT ["python","Chatbot.py"]
