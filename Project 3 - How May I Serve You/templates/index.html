@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Python-Bot</title>
+ <title>ChatterBot - Python based Chat-Bot</title>
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <style>
@@ -18,12 +18,14 @@
  margin-right: auto;
  width: 40%;
  margin-top: 60px;
+ 
  }
  #userInput {
  margin-left: auto;
  margin-right: auto;
  width: 40%;
  margin-top: 60px;
+ margin-bottom: 60px;
  }
  #textInput {
  width: 90%;
@@ -68,19 +70,29 @@
  width: 78%;
  margin-top: 60px;
  border: 1px solid green;
+ margin-bottom: 60px;
  }
+
+     
+     
  </style>
 </head>
 <body><div>
- <h1 align="center"><b>Welcome to Python-BOT</b></h1>
+ <h1 align="center"><b>Echo</b></h1>
+ <h1 align="center"><b>ChatterBot based Chat-Bot</b></h1>
  <h4 align="center"><b>Your one stop destination for all your needs</b></h4>
- <p align="center"><img src="https://raw.githubusercontent.com/patelkelvin/Python-BOT/master/templates/favicon.ico" alt="Python-BOT" height="210" width="220"></p>
+ <p align="center"><img src="ai.png" alt="Python-BOT" height="210" ></p>
  <div class="boxed">
  <div>
  <div id="chatbox">
  <p class="botText">
- <span>Hi! I'm Python-BOT your personal ChatBot</span>
+ <span>Hi! I'm Echo your personal ChatBot</span>  
+ </p>  
+ <p class="botText">
+ <span>How may I serve you?</span>  
  </p>
+     
+     
  </div>
  <div id="userInput">
  <input id="textInput" type="text" name="msg" placeholder="Message" />
