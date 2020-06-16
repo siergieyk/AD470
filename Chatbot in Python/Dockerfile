@@ -2,10 +2,10 @@ FROM python:3.8.0
 
 WORKDIR /user/src/app
 
-COPY './requirements.txt' .
+COPY 'requirements.txt' .
 
 RUN pip install -r requirements.txt
 
 COPY . . 
 
-ENTRYPOINT ["python","chatbot.py"]
+ENTRYPOINT ["python","app.py"]
